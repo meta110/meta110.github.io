@@ -9,7 +9,7 @@ scope: "offline,groups,ads,stats"
 ## Шаг 1. Разрешите доступ к статистике вашего рекламного кабинета Вконтакте
 Пройдите по ссылке на [страницу авторизации Вконтакте](https://oauth.vk.com/authorize?client_id={{ page.app_id }}&display=popup&scope={{ page.scope }}&response_type=code&v=5.103&redirect_uri={{ site.url }}{{ page.url }}#step2) и нажмите кнопку "Разрешить":
 
-![Предоставление доступов Вконтакте](https://github.com/meta110/meta110.github.io/blob/master/img/vk_grant_access.jpg){: .center-block :}
+![Предоставление доступов Вконтакте](https://github.com/meta110/meta110.github.io/blob/master/img/vk_grant_access.jpg?raw=true){: .center-block :}
 
 ## Шаг 2. Получите токен для работы приложения {#step2}
 
