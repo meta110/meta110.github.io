@@ -90,3 +90,13 @@ yelp:
   name: "Yelp"
   urlTemplate: "https://{value}.yelp.com"
   icon: "fab fa-yelp"
+
+vk:
+  name: "VK"
+  urlTemplate: "https://vk.com/{value}"
+  icon: "fab fa-vk"
+  
+telegram:
+  name: "Telegram"
+  urlTemplate: "https://t.me/{value}"
+  icon: "fab fa-telegram"
