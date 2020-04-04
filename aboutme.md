@@ -3,7 +3,7 @@ layout: page
 title: Обо мне
 subtitle: Почему вы не захотите пойти со мной на свидание
 bigimg:
-  - "{{ site.baseurl }}/img/aboutme.jpg" : "Я на отдыхе"
+  - "/img/aboutme.jpg" : "Я на отдыхе"
 ---
 
 Привет, меня зовут Илья Назаров:
