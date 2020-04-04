@@ -20,11 +20,11 @@ scope: "offline,groups,ads,stats"
 
 Сохраните токен доступа, как выделено на изображении:
 
-![Сохранение токена Вконтакте](https://github.com/meta110/meta110.github.io/blob/master/img/vk_access_token?raw=true){: .center-block :}
+![Сохранение токена Вконтакте](https://github.com/meta110/meta110.github.io/blob/master/img/vk_access_token.png?raw=true){: .center-block :}
 
 {: .box-warning}
 **Внимание:** Если вместо токена вы увидите предупреждение:
 
-![Время действия кода закончилось](https://github.com/meta110/meta110.github.io/blob/master/img/vk_access_expired?raw=true){: .center-block :}
+![Время действия кода закончилось](https://github.com/meta110/meta110.github.io/blob/master/img/vk_access_expired.png?raw=true){: .center-block :}
 
 Это означает, что время действия кода доступа закончилось. Перезагрузите [эту страницу по ссылке]({{ site.url }}{{ page.url }}) и попробуйте снова.
