@@ -22,7 +22,7 @@ description: Виртуальное доказательство моей кру
 navbar-links:
   Обо мне: "aboutme"
   API Яндекса:
-    - Сырая Метрика: Logs API: "/powerbi"
+    - Сырая Метрика: "/powerbi"
     - Обычная Метрика: "/powerbi/yandex_metrika"
     - Отчеты Директ: "/powerbi/yandex_direct"
   API Вконтакте:
