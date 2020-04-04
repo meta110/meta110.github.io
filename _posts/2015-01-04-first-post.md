@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First post!
+title: Первый пост!
 image: /img/hello_world.jpeg
 ---
 
-This is my first post, how exciting!
+Наконец-то я его написал
