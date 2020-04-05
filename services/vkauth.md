@@ -36,3 +36,5 @@ bigimg:
 ![Время действия кода закончилось](https://github.com/meta110/meta110.github.io/blob/master/img/vk_access_expired.png?raw=true){: .center-block :}
 
 Это означает, что время действия кода доступа закончилось. Перезагрузите [эту страницу по ссылке]({{ site.url }}{{ page.url }}) и попробуйте снова.
+
+{% include social-share.html %}
