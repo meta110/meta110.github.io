@@ -110,6 +110,9 @@ gtag: "UA-162274913-1"
 # Google Tag Manager ID
 gtm: "GTM-TVX6GTJ"
 
+# Facebook pixel
+fbpix: "162112511147547"
+
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
