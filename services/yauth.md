@@ -4,10 +4,27 @@ title: "Авторизация Яндекс"
 subtitle: "Получение доступа к сервисам"
 app_id: "764f4af41256427ba87965a7ed31ea3d"
 bigimg:
-  - "/img/ya_logo_clouds.jpg : "Гав-гав!"
+  - "/img/ya_logo_clouds.jpg : "Яндекс в облаках"
 ---
-Чтобы получить ключ доступа (access token) к сервисам Яндекс
 
-[Получить токен авторизации](https://oauth.yandex.ru/authorize?response_type=token&client_id={{ page.app_id }}&redirect_uri={{ site.url }}{{ page.url }})
+## Предостережения
+
+**В: Access token дает полный доступ к аккаунту?**
+О: Да, но не ко всем сервисам, а только к Метрике, Аудиториям и Директ
+
+**В: Можно отозвать старый access token?**
+О: Да, для этого поменяйте пароль аккаунта или отзовите доступ на странице <a href="https://passport.yandex.ru/profile" title="Яндекс Паспорт откроется в новом окне" target="_blank">Яндекс Паспорт</a> в разделе "Устройства, сервисы и программы":
+![Отзыв доступов Яндекс](https://github.com/meta110/meta110.github.io/blob/master/img/ya_reject_app.png?raw=true){: .center-block :}
+
+**В: Знаю ли я ваш access token?**
+О: Нет. Токен вы получаете на странице Яндекс (убедитесь в этом по адресной строке браузера). У меня нет возможности поставить свой счетчик на сайт Яндекса. Я знаю только количество переходов по своей ссылке. Если бы возвращал вас обратно к себе на сайт настроив redirect_uri, то узнал бы ваш токен. Но уважаю свою и вашу приватность, поэтому не сделал этого. 
+
+## Доступ к Вконтакте
+
+Чтобы получить ключ доступа (access token) к сервисам Яндекс <a href="https://oauth.yandex.ru/authorize?response_type=token&client_id={{ page.app_id }}" title="Страница авторизации Яндекс откроется в новом окне" target="_blank">пройдите по ссылке</a> и разрешите доступ к вашему аккаунту для приложения **Power BI connector**
+
+![Предоставление доступов Яндекс](https://github.com/meta110/meta110.github.io/blob/master/img/ya_grant_access.png?raw=true){: .center-block :}
+
+Используйте токен доступа для получения отчетов Метрики и Директ, а также для просмотра Аудиторий.
 
 {% include social-share.html %}
