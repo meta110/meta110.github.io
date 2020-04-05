@@ -21,6 +21,7 @@ url: "https://meta110.github.io"
 # List of links in the navigation bar
 navbar-links:
   API Яндекса:
+    - Авторизация: "/services/yauth/"
     - Сырая Метрика: "/powerbi"
     - Обычная Метрика: "/powerbi/yandex_metrika"
     - Отчеты Директ: "/powerbi/yandex_direct"
