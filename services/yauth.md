@@ -4,7 +4,7 @@ title: "Авторизация Яндекс"
 subtitle: "Получение доступа к сервисам"
 app_id: "764f4af41256427ba87965a7ed31ea3d"
 bigimg:
-  - "/img/VK_dogs.png" : "Гав-гав!"
+  - "/img/ya_logo_clouds.jpg : "Гав-гав!"
 ---
 Чтобы получить ключ доступа (access token) к сервисам Яндекс
 
