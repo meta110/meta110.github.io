@@ -36,6 +36,34 @@
       <span class="sr-only">LinkedIn</span>
     </a>
   {% endif %}
+  
+  {% if site.share-links-active.vk %}
+  <!--- Share on Vkontakte -->
+    <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}"
+      class="btn btn-social-icon btn-vk" title="Share on Vk">
+      <span class="fab fa-fw fa-vk" aria-hidden="true"></span>
+      <span class="sr-only">Vkontakte</span>
+    </a>
+  {% endif %}
+  
+  {% if site.share-links-active.telegram %}
+  <!--- Share on Telegram -->
+    <a href="tg://msg?text={{ page.url | absolute_url | url_encode }}"
+      class="btn btn-social-icon btn-telegram" title="Share on Telegram">
+      <span class="fab fa-fw fa-telegram" aria-hidden="true"></span>
+      <span class="sr-only">Telegram</span>
+    </a>
+  {% endif %}
+  
+  {% if site.share-links-active.whatsapp %}
+  <!--- Share on WhatsApp -->
+    <a href="whatsapp://send?text={{ page.url | absolute_url | url_encode }}"
+	  data-action="share/whatsapp/share"
+      class="btn btn-social-icon btn-whatsapp" title="Share on WhatsApp">
+      <span class="fab fa-fw fa-whatsapp" aria-hidden="true"></span>
+      <span class="sr-only">WhatsApp</span>
+    </a>
+  {% endif %}
 
 </section>
 
