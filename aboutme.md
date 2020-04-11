@@ -2,6 +2,7 @@
 layout: page
 title: "Обо мне"
 subtitle: "Как связаны йога и Power BI?"
+comments: true
 bigimg:
   - "/img/aboutme.jpg" : "Я на отдыхе"
 ---
