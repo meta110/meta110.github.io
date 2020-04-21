@@ -33,7 +33,7 @@ comments: true
 ## Шаг 1. Предоставьте права доступа
 Сначала разрешите приложению получать статистику ваших групп и рекламных кабинетов. Для этого пройдите по ссылке на [страницу авторизации Вконтакте](https://oauth.vk.com/authorize?client_id={{ page.app_id }}&display=popup&scope={{ page.scope }}&response_type=code&v=5.103&redirect_uri={{ site.url }}{{ page.url }}#step2). Откроется сайт Вконтакте, где нажмите кнопку "Разрешить", как показано ниже:
 
-![Предоставление доступов Вконтакте](https://github.com/meta110/meta110.github.io/blob/master/img/vk_grant_access.png?raw=true){: .center-block :}
+![Предоставление доступов Вконтакте](/img/vk_grant_access.png){: .center-block :}
 
 После чего вы вернетесь на эту страницу и перейдете к следующему шагу.
 
